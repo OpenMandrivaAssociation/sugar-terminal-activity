@@ -10,10 +10,10 @@ Url: http://sugarlabs.org/
 
 Source: http://download.sugarlabs.org/sources/sucrose/fructose/Terminal/Terminal-21.tar.bz2
 
-Requires: sugar-toolkit >= 0.83.3
+Requires: sugar-toolkit >= 0.83.4
 Requires: python-vte >= 0.17
 
-BuildRequires: sugar-toolkit >= 0.83.3
+BuildRequires: sugar-toolkit >= 0.83.4
 BuildRequires: gettext  
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
