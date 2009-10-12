@@ -2,17 +2,17 @@
 #       See http://wiki.sugarlabs.org/go/Deployment_Team/jhconvert for details
 
 Name: sugar-terminal-activity
-Version: 27
+Version: 28
 Release: %mkrel 1
 Summary: Terminal for Sugar
 License: GPLv2+
 Group: Graphical desktop/Other
 Url: http://sugarlabs.org/
 
-Source: http://download.sugarlabs.org/sources/sucrose/fructose/Terminal/Terminal-27.tar.bz2
+Source: http://download.sugarlabs.org/sources/sucrose/fructose/Terminal/Terminal-28.tar.bz2
 
 Requires: python-simplejson  
-Requires: sugar-toolkit >= 0.86.0
+Requires: sugar-toolkit >= 0.86.1
 Requires: python-vte >= 0.17
 
 BuildRequires: gettext  
@@ -25,7 +25,7 @@ BuildArch: noarch
 The terminal activity provides a vte-based terminal for the Sugar interface.
 
 %prep
-%setup -q -n Terminal-27
+%setup -q -n Terminal-28
 
 
 %build
