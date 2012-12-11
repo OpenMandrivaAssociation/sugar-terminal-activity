@@ -12,11 +12,11 @@ Url: http://sugarlabs.org/
 Source: http://download.sugarlabs.org/sources/sucrose/fructose/Terminal/Terminal-28.tar.bz2
 
 Requires: python-simplejson  
-Requires: sugar-toolkit >= 0.88.0
+Requires: sugar-toolkit >= 0.86.1
 Requires: python-vte >= 0.17
 
 BuildRequires: gettext  
-BuildRequires: sugar-toolkit >= 0.88.0
+BuildRequires: sugar-toolkit >= 0.86.0
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch: noarch
@@ -46,4 +46,31 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %{_datadir}/sugar/activities/*
 %doc COPYING MAINTAINERS NEWS README
+
+
+
+%changelog
+* Mon Oct 12 2009 Aleksey Lim <alsroot@mandriva.org> 28-1mdv2010.0
++ Revision: 456981
+- Push 28
+
+* Fri Sep 25 2009 Aleksey Lim <alsroot@mandriva.org> 27-1mdv2010.0
++ Revision: 449009
+- Update to 27
+
+* Sat Sep 19 2009 Aleksey Lim <alsroot@mandriva.org> 26-1mdv2010.0
++ Revision: 444549
+- Update to 26
+
+* Mon Apr 06 2009 Aleksey Lim <alsroot@mandriva.org> 25-1mdv2009.1
++ Revision: 364291
+- Sucrose 0.84.2 release
+
+* Wed Mar 04 2009 Aleksey Lim <alsroot@mandriva.org> 23-1mdv2009.1
++ Revision: 348321
+- Sucrose 0.84.0 release
+
+* Sun Jan 11 2009 Aleksey Lim <alsroot@mandriva.org> 21-1mdv2009.1
++ Revision: 328411
+- initial commit
 
