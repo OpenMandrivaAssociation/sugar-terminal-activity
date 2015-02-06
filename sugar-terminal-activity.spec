@@ -3,7 +3,7 @@
 
 Name: sugar-terminal-activity
 Version: 42
-Release: 1
+Release: 2
 Summary: Terminal for Sugar
 License: GPLv2+
 Group: Graphical desktop/Other
