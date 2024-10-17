@@ -7,7 +7,7 @@ Release: 1
 Summary: Terminal for Sugar
 License: GPLv2+
 Group: Graphical desktop/Other
-Url: http://sugarlabs.org/
+Url: https://sugarlabs.org/
 
 Source: http://download.sugarlabs.org/sources/sucrose/fructose/Terminal/Terminal-%{version}.tar.bz2
 
